@@ -1,0 +1,25 @@
+intent_rest_api_reservation:
+    resource: "@IntentRestAPIReservationBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+intent_rest_api_user:
+    resource: "@IntentRestAPIUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+intent_rest_api_pizza:
+    resource: "@IntentRestAPIPizzaBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+intent_rest_api_main:
+    resource: "@IntentRestAPIMainBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+

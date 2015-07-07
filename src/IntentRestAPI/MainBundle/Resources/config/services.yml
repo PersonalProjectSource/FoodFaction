@@ -1,0 +1,3 @@
+services:
+    mainBundle.service.pattern.factoryProduit:
+        class: IntentRestAPI\MainBundle\Services\Patterns\Factory\ProduitFactory
